@@ -19,7 +19,7 @@ Library {
       $ObjectID		      2
       $ClassName	      "Simulink.WindowInfo"
       IsActive		      [1]
-      Location		      [51.0, 0.0, 960.0, 1040.0]
+      Location		      [-8.0, -8.0, 1936.0, 1056.0]
       Object {
 	$PropName		"ModelBrowserInfo"
 	$ObjectID		3
@@ -41,11 +41,11 @@ Library {
 	$ObjectID		5
 	$ClassName		"Simulink.EditorInfo"
 	IsActive		[1]
-	ViewObjType		"SimulinkSubsys"
-	LoadSaveID		"100"
-	Extents			[908.0, 872.0]
-	ZoomFactor		[1.0781295381934359]
-	Offset			[36.889547413793196, -49.824353448275929]
+	ViewObjType		"SimulinkTopLevel"
+	LoadSaveID		"0"
+	Extents			[1884.0, 888.0]
+	ZoomFactor		[1.04]
+	Offset			[0.0, 0.0]
       }
     }
   }
@@ -53,11 +53,11 @@ Library {
   Creator		  "Vicon"
   UpdateHistory		  "UpdateHistoryNever"
   ModifiedByFormat	  "%<Auto>"
-  LastModifiedBy	  "Vicon"
+  LastModifiedBy	  "Birdman"
   ModifiedDateFormat	  "%<Auto>"
-  LastModifiedDate	  "Mon Dec 23 09:54:19 2013"
-  RTWModifiedTimeStamp	  309693256
-  ModelVersionFormat	  "1.%<AutoIncrement:83>"
+  LastModifiedDate	  "Tue Sep 23 17:22:48 2014"
+  RTWModifiedTimeStamp	  333389912
+  ModelVersionFormat	  "1.%<AutoIncrement:87>"
   ConfigurationManager	  "None"
   SampleTimeColors	  off
   SampleTimeAnnotations	  off
@@ -899,8 +899,8 @@ Library {
   }
   System {
     Name		    "X330_Control"
-    Location		    [51, 0, 1011, 1040]
-    Open		    off
+    Location		    [-8, -8, 1928, 1048]
+    Open		    on
     ModelBrowserVisibility  off
     ModelBrowserWidth	    200
     ScreenColor		    "white"
@@ -913,7 +913,7 @@ Library {
     ShowPageBoundaries	    off
     ZoomFactor		    "104"
     ReportName		    "simulink-default.rpt"
-    SIDHighWatermark	    "1090"
+    SIDHighWatermark	    "1091"
     Block {
       BlockType		      SubSystem
       Name		      "Axi Vertical Controller\nAxiMotor + APC Prop"
@@ -990,7 +990,7 @@ Library {
 	  BlockType		  Inport
 	  Name			  "UAV bus"
 	  SID			  "202"
-	  Position		  [25, 143, 55, 157]
+	  Position		  [35, 193, 65, 207]
 	  ZOrder		  -1
 	  IconDisplay		  "Port number"
 	}
@@ -998,7 +998,7 @@ Library {
 	  BlockType		  Inport
 	  Name			  "Hover Throttle"
 	  SID			  "203"
-	  Position		  [490, 263, 520, 277]
+	  Position		  [490, 243, 520, 257]
 	  ZOrder		  -2
 	  Port			  "2"
 	  IconDisplay		  "Port number"
@@ -1007,7 +1007,7 @@ Library {
 	  BlockType		  Inport
 	  Name			  "XY_Acc_d"
 	  SID			  "204"
-	  Position		  [35, 363, 65, 377]
+	  Position		  [35, 353, 65, 367]
 	  ZOrder		  -3
 	  Port			  "3"
 	  IconDisplay		  "Port number"
@@ -1205,7 +1205,7 @@ Library {
 	  Name			  "Selector1"
 	  SID			  "207"
 	  Ports			  [1, 1]
-	  Position		  [265, 132, 290, 158]
+	  Position		  [265, 117, 290, 143]
 	  ZOrder		  -6
 	  NamePlacement		  "alternate"
 	  ShowName		  off
@@ -1219,7 +1219,7 @@ Library {
 	  Name			  "Selector3"
 	  SID			  "208"
 	  Ports			  [1, 1]
-	  Position		  [365, 217, 390, 243]
+	  Position		  [365, 207, 390, 233]
 	  ZOrder		  -7
 	  NamePlacement		  "alternate"
 	  ShowName		  off
@@ -1233,7 +1233,7 @@ Library {
 	  Name			  "Selector4"
 	  SID			  "209"
 	  Ports			  [1, 1]
-	  Position		  [275, 97, 300, 123]
+	  Position		  [265, 72, 290, 98]
 	  ZOrder		  -8
 	  NamePlacement		  "alternate"
 	  ShowName		  off
@@ -1247,7 +1247,7 @@ Library {
 	  Name			  "Selector5"
 	  SID			  "210"
 	  Ports			  [1, 1]
-	  Position		  [365, 257, 390, 283]
+	  Position		  [365, 252, 390, 278]
 	  ZOrder		  -9
 	  NamePlacement		  "alternate"
 	  ShowName		  off
@@ -1261,7 +1261,7 @@ Library {
 	  Name			  "Selector6"
 	  SID			  "211"
 	  Ports			  [1, 1]
-	  Position		  [365, 293, 390, 337]
+	  Position		  [365, 288, 390, 332]
 	  ZOrder		  -10
 	  NamePlacement		  "alternate"
 	  ShowName		  off
@@ -1275,7 +1275,7 @@ Library {
 	  Name			  "Selector7"
 	  SID			  "212"
 	  Ports			  [1, 1]
-	  Position		  [420, 138, 445, 212]
+	  Position		  [420, 148, 445, 202]
 	  ZOrder		  -11
 	  NamePlacement		  "alternate"
 	  ShowName		  off
@@ -1295,7 +1295,7 @@ Library {
 	  Name			  "Sum"
 	  SID			  "213"
 	  Ports			  [2, 1]
-	  Position		  [365, 90, 385, 110]
+	  Position		  [360, 75, 380, 95]
 	  ZOrder		  -12
 	  ShowName		  off
 	  IconShape		  "round"
@@ -1315,7 +1315,7 @@ Library {
 	  Name			  "Sum1"
 	  SID			  "214"
 	  Ports			  [2, 1]
-	  Position		  [435, 220, 455, 240]
+	  Position		  [435, 210, 455, 230]
 	  ZOrder		  -13
 	  ShowName		  off
 	  IconShape		  "round"
@@ -1335,7 +1335,7 @@ Library {
 	  Name			  "Verticall Pos Controller"
 	  SID			  "215"
 	  Ports			  [6, 1]
-	  Position		  [600, 58, 745, 397]
+	  Position		  [600, 53, 745, 392]
 	  ZOrder		  -14
 	  MinAlgLoopOccurrences	  off
 	  PropExecContextOutsideSubsystem off
@@ -1364,7 +1364,7 @@ Library {
 	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
 	    TiledPageScale	    1
 	    ShowPageBoundaries	    off
-	    ZoomFactor		    "86"
+	    ZoomFactor		    "161"
 	    Block {
 	      BlockType		      Inport
 	      Name		      "Pos Error"
@@ -1395,7 +1395,7 @@ Library {
 	      BlockType		      Inport
 	      Name		      "Hover Throttle"
 	      SID		      "219"
-	      Position		      [20, 328, 50, 342]
+	      Position		      [25, 298, 55, 312]
 	      ZOrder		      -4
 	      Port		      "4"
 	      IconDisplay	      "Port number"
@@ -1419,7 +1419,7 @@ Library {
 	      BlockType		      Inport
 	      Name		      "XY_Acc_d"
 	      SID		      "221"
-	      Position		      [20, 418, 50, 432]
+	      Position		      [25, 438, 55, 452]
 	      ZOrder		      -6
 	      Port		      "6"
 	      IconDisplay	      "Port number"
@@ -1439,7 +1439,7 @@ Library {
 	      BlockType		      Fcn
 	      Name		      "Force --> Control"
 	      SID		      "223"
-	      Position		      [830, 415, 1010, 445]
+	      Position		      [825, 290, 1005, 320]
 	      ZOrder		      -8
 	      Expr		      "0.0317*u(1) +0.1208"
 	    }
@@ -1447,7 +1447,7 @@ Library {
 	      BlockType		      Gain
 	      Name		      "Integral Gain"
 	      SID		      "224"
-	      Position		      [110, 91, 210, 139]
+	      Position		      [115, 81, 215, 129]
 	      ZOrder		      -9
 	      DisableCoverage	      on
 	      Gain		      "PID_I_h"
@@ -1460,7 +1460,7 @@ Library {
 	      Name		      "Integrator"
 	      SID		      "225"
 	      Ports		      [2, 1]
-	      Position		      [285, 98, 360, 162]
+	      Position		      [285, 93, 360, 137]
 	      ZOrder		      -10
 	      DisableCoverage	      on
 	      IntegratorMethod	      "Integration: Trapezoidal"
@@ -1477,7 +1477,7 @@ Library {
 	      BlockType		      Gain
 	      Name		      "Mass"
 	      SID		      "226"
-	      Position		      [755, 416, 810, 444]
+	      Position		      [750, 291, 805, 319]
 	      ZOrder		      -11
 	      DisableCoverage	      on
 	      Gain		      "mass"
@@ -1490,7 +1490,7 @@ Library {
 	      Name		      "Mux"
 	      SID		      "227"
 	      Ports		      [2, 1]
-	      Position		      [585, 395, 590, 455]
+	      Position		      [585, 400, 590, 460]
 	      ZOrder		      -12
 	      ShowName		      off
 	      Inputs		      "2"
@@ -1535,7 +1535,7 @@ Library {
 	      Name		      "Sum2"
 	      SID		      "230"
 	      Ports		      [2, 1]
-	      Position		      [515, 285, 545, 325]
+	      Position		      [515, 290, 545, 320]
 	      ZOrder		      -15
 	      ShowName		      off
 	      DisableCoverage	      on
@@ -1559,7 +1559,7 @@ Library {
 	      BlockType		      Outport
 	      Name		      "T  Commands [0, 1]"
 	      SID		      "232"
-	      Position		      [1090, 423, 1120, 437]
+	      Position		      [1085, 298, 1115, 312]
 	      ZOrder		      -17
 	      IconDisplay	      "Port number"
 	    }
@@ -1572,29 +1572,26 @@ Library {
 	    Line {
 	      SrcBlock		      "Sum2"
 	      SrcPort		      1
-	      Points		      [10, 0; 0, 55]
+	      Points		      [10, 0]
 	      Branch {
-		Points			[180, 0]
-		DstBlock		"Mass"
+		Points			[0, 110]
+		DstBlock		"Mux"
 		DstPort			1
 	      }
 	      Branch {
-		Points			[0, 50]
-		DstBlock		"Mux"
+		DstBlock		"Mass"
 		DstPort			1
 	      }
 	    }
 	    Line {
 	      SrcBlock		      "XY_Acc_d"
 	      SrcPort		      1
-	      Points		      [0, 10; 515, 0]
 	      DstBlock		      "Mux"
 	      DstPort		      2
 	    }
 	    Line {
 	      SrcBlock		      "Mux"
 	      SrcPort		      1
-	      Points		      [15, 0]
 	      DstBlock		      "Total Acc des"
 	      DstPort		      1
 	    }
@@ -1615,17 +1612,16 @@ Library {
 	    }
 	    Line {
 	      Name		      "Gravity"
-	      Labels		      [5, 0]
+	      Labels		      [1, 0]
 	      SrcBlock		      "Hover Throttle"
 	      SrcPort		      1
-	      Points		      [30, 0; 0, -5; 390, 0; 0, -25]
 	      DstBlock		      "Sum2"
 	      DstPort		      2
 	    }
 	    Line {
 	      SrcBlock		      "Acc des"
 	      SrcPort		      1
-	      Points		      [370, 0; 0, -35; -1, 0]
+	      Points		      [369, 0]
 	      DstBlock		      "Sum1"
 	      DstPort		      4
 	    }
@@ -1645,7 +1641,7 @@ Library {
 	    Line {
 	      SrcBlock		      "Reset"
 	      SrcPort		      1
-	      Points		      [0, 5; 185, 0; 0, -25]
+	      Points		      [185, 0; 0, -40]
 	      DstBlock		      "Integrator"
 	      DstPort		      2
 	    }
@@ -1654,7 +1650,7 @@ Library {
 	      SrcPort		      1
 	      Points		      [15, 0]
 	      Branch {
-		Points			[0, 75]
+		Points			[0, 65]
 		DstBlock		"Integral Gain"
 		DstPort			1
 	      }
@@ -1673,7 +1669,7 @@ Library {
 	    Line {
 	      SrcBlock		      "Integrator"
 	      SrcPort		      1
-	      Points		      [0, -10; 64, 0]
+	      Points		      [64, 0]
 	      DstBlock		      "Sum1"
 	      DstPort		      2
 	    }
@@ -1689,14 +1685,13 @@ Library {
 	  BlockType		  Outport
 	  Name			  "T"
 	  SID			  "233"
-	  Position		  [945, 223, 975, 237]
+	  Position		  [815, 218, 845, 232]
 	  ZOrder		  -15
 	  IconDisplay		  "Port number"
 	}
 	Line {
 	  SrcBlock		  "XY_Acc_d"
 	  SrcPort		  1
-	  Points		  [515, 0]
 	  DstBlock		  "Verticall Pos Controller"
 	  DstPort		  6
 	}
@@ -1711,7 +1706,7 @@ Library {
 	Line {
 	  SrcBlock		  "Selector6"
 	  SrcPort		  1
-	  Points		  [190, 0]
+	  Points		  [100, 0; 0, -5]
 	  DstBlock		  "Verticall Pos Controller"
 	  DstPort		  5
 	}
@@ -1720,32 +1715,28 @@ Library {
 	  Labels		  [0, 0]
 	  SrcBlock		  "Bus\nSelector"
 	  SrcPort		  6
-	  Points		  [0, 5]
 	  DstBlock		  "Selector6"
 	  DstPort		  1
 	}
 	Line {
 	  SrcBlock		  "Hover Throttle"
 	  SrcPort		  1
-	  Points		  [60, 0]
 	  DstBlock		  "Verticall Pos Controller"
 	  DstPort		  4
 	}
 	Line {
 	  Name			  "<velocity des>"
-	  Labels		  [3, 0]
+	  Labels		  [1, 0]
 	  SrcBlock		  "Bus\nSelector"
 	  SrcPort		  5
-	  Points		  [150, 0; 0, 15]
 	  DstBlock		  "Selector5"
 	  DstPort		  1
 	}
 	Line {
 	  Name			  "<velocity>"
-	  Labels		  [3, 0]
+	  Labels		  [1, 0]
 	  SrcBlock		  "Bus\nSelector"
 	  SrcPort		  4
-	  Points		  [160, 0; 0, 15]
 	  DstBlock		  "Selector3"
 	  DstPort		  1
 	}
@@ -1767,7 +1758,7 @@ Library {
 	  Labels		  [1, 1]
 	  SrcBlock		  "Sum1"
 	  SrcPort		  1
-	  Points		  [90, 0; 0, -30]
+	  Points		  [90, 0; 0, -25]
 	  DstBlock		  "Verticall Pos Controller"
 	  DstPort		  3
 	}
@@ -1790,14 +1781,13 @@ Library {
 	Line {
 	  SrcBlock		  "Selector1"
 	  SrcPort		  1
-	  Points		  [80, 0]
+	  Points		  [75, 0]
 	  DstBlock		  "Sum"
 	  DstPort		  2
 	}
 	Line {
 	  SrcBlock		  "Selector4"
 	  SrcPort		  1
-	  Points		  [0, -10]
 	  DstBlock		  "Sum"
 	  DstPort		  1
 	}
@@ -1806,16 +1796,14 @@ Library {
 	  Labels		  [0, 0]
 	  SrcBlock		  "Sum"
 	  SrcPort		  1
-	  Points		  [195, 0]
 	  DstBlock		  "Verticall Pos Controller"
 	  DstPort		  1
 	}
 	Line {
 	  Name			  "<position des>"
-	  Labels		  [0, 0; 2, 0]
+	  Labels		  [0, 0; 1, 0]
 	  SrcBlock		  "Bus\nSelector"
 	  SrcPort		  2
-	  Points		  [40, 0; 0, 10]
 	  DstBlock		  "Selector1"
 	  DstPort		  1
 	}
@@ -1824,23 +1812,20 @@ Library {
 	  Labels		  [0, 0]
 	  SrcBlock		  "Bus\nSelector"
 	  SrcPort		  1
-	  Points		  [0, 15]
 	  DstBlock		  "Selector4"
 	  DstPort		  1
 	}
 	Line {
 	  Name			  "<rc>"
-	  Labels		  [0, 0; 2, 0]
+	  Labels		  [0, 0; 1, 0]
 	  SrcBlock		  "Bus\nSelector"
 	  SrcPort		  3
-	  Points		  [0, -5; 105, 0; 0, 5]
 	  DstBlock		  "Bus\nSelector3"
 	  DstPort		  1
 	}
 	Line {
 	  SrcBlock		  "UAV bus"
 	  SrcPort		  1
-	  Points		  [20, 0]
 	  DstBlock		  "Bus\nSelector"
 	  DstPort		  1
 	}
@@ -2861,7 +2846,7 @@ Library {
       }
       System {
 	Name			"Horizontal Pos controller"
-	Location		[0, 0, 960, 1040]
+	Location		[-8, -8, 1928, 1048]
 	Open			off
 	ModelBrowserVisibility	off
 	ModelBrowserWidth	200
@@ -2878,7 +2863,7 @@ Library {
 	  BlockType		  Inport
 	  Name			  "UAV Bus"
 	  SID			  "2"
-	  Position		  [15, 153, 45, 167]
+	  Position		  [40, 68, 70, 82]
 	  ZOrder		  -1
 	  IconDisplay		  "Port number"
 	}
@@ -2898,7 +2883,7 @@ Library {
 	  MaskHideContents	  off
 	  System {
 	    Name		    "Horizontal Position Controller"
-	    Location		    [0, 0, 960, 1040]
+	    Location		    [-8, -8, 1928, 1048]
 	    Open		    off
 	    ModelBrowserVisibility  off
 	    ModelBrowserWidth	    200
@@ -2910,12 +2895,12 @@ Library {
 	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
 	    TiledPageScale	    1
 	    ShowPageBoundaries	    off
-	    ZoomFactor		    "100"
+	    ZoomFactor		    "207"
 	    Block {
 	      BlockType		      Inport
 	      Name		      "UAV Bus"
 	      SID		      "6"
-	      Position		      [15, 153, 45, 167]
+	      Position		      [15, 158, 45, 172]
 	      ZOrder		      -1
 	      IconDisplay	      "Port number"
 	    }
@@ -3044,7 +3029,7 @@ Library {
 	      Name		      "Horizontal Pos Controller"
 	      SID		      "11"
 	      Ports		      [4, 1]
-	      Position		      [555, 44, 670, 101]
+	      Position		      [555, 34, 670, 91]
 	      ZOrder		      -7
 	      MinAlgLoopOccurrences   off
 	      PropExecContextOutsideSubsystem off
@@ -3061,7 +3046,7 @@ Library {
 	      }
 	      System {
 		Name			"Horizontal Pos Controller"
-		Location		[0, 0, 960, 1040]
+		Location		[-8, -8, 1928, 1048]
 		Open			off
 		ModelBrowserVisibility	off
 		ModelBrowserWidth	200
@@ -3315,7 +3300,7 @@ Library {
 		TiledPageScale		1
 		ShowPageBoundaries	off
 		ZoomFactor		"100"
-		SIDHighWatermark	"56"
+		SIDHighWatermark	"61"
 		Block {
 		  BlockType		  Inport
 		  Name			  "u"
@@ -3433,7 +3418,7 @@ Library {
 	      Name		      "Saturation1"
 	      SID		      "1081"
 	      Ports		      [1, 1]
-	      Position		      [420, 20, 450, 50]
+	      Position		      [380, 25, 410, 55]
 	      ZOrder		      4
 	      InputPortMap	      "u0"
 	      UpperLimit	      "3"
@@ -3444,7 +3429,7 @@ Library {
 	      Name		      "Selector1"
 	      SID		      "26"
 	      Ports		      [1, 1]
-	      Position		      [205, 22, 230, 48]
+	      Position		      [205, 27, 230, 53]
 	      ZOrder		      -12
 	      NamePlacement	      "alternate"
 	      ShowName		      off
@@ -3548,7 +3533,7 @@ Library {
 	      Name		      "Sum"
 	      SID		      "35"
 	      Ports		      [2, 1]
-	      Position		      [255, 25, 275, 45]
+	      Position		      [255, 30, 275, 50]
 	      ZOrder		      -21
 	      ShowName		      off
 	      IconShape		      "round"
@@ -3629,6 +3614,7 @@ Library {
 	    Line {
 	      SrcBlock		      "Selector1"
 	      SrcPort		      1
+	      Points		      [5, 0]
 	      DstBlock		      "Sum"
 	      DstPort		      1
 	    }
@@ -3642,7 +3628,6 @@ Library {
 	    Line {
 	      SrcBlock		      "UAV Bus"
 	      SrcPort		      1
-	      Points		      [25, 0]
 	      DstBlock		      "Bus\nSelector"
 	      DstPort		      1
 	    }
@@ -3650,7 +3635,7 @@ Library {
 	      Name		      "North Command\nEast Command"
 	      SrcBlock		      "Horizontal Pos Controller"
 	      SrcPort		      1
-	      Points		      [0, 110]
+	      Points		      [0, 120]
 	      Branch {
 		Labels			[2, 0]
 		Points			[0, 60; -505, 0; 0, 40]
@@ -3742,7 +3727,7 @@ Library {
 	      Labels		      [1, 1]
 	      SrcBlock		      "Sum1"
 	      SrcPort		      1
-	      Points		      [120, 0; 0, -85]
+	      Points		      [120, 0; 0, -95]
 	      DstBlock		      "Horizontal Pos Controller"
 	      DstPort		      3
 	    }
@@ -3806,14 +3791,14 @@ Library {
 	    Line {
 	      SrcBlock		      "MATLAB Function"
 	      SrcPort		      1
-	      Points		      [5, 0; 0, -45]
+	      Points		      [5, 0; 0, -55]
 	      DstBlock		      "Horizontal Pos Controller"
 	      DstPort		      2
 	    }
 	    Line {
 	      SrcBlock		      "Saturation1"
 	      SrcPort		      1
-	      Points		      [85, 0]
+	      Points		      [125, 0]
 	      DstBlock		      "Horizontal Pos Controller"
 	      DstPort		      1
 	    }
@@ -3822,7 +3807,7 @@ Library {
 	      SrcPort		      1
 	      Points		      [95, 0]
 	      Branch {
-		Points			[177, 0; 0, -110]
+		Points			[177, 0; 0, -120]
 		DstBlock		"Horizontal Pos Controller"
 		DstPort			4
 	      }
@@ -3845,7 +3830,6 @@ Library {
 	  Labels		  [0, 0]
 	  SrcBlock		  "UAV Bus"
 	  SrcPort		  1
-	  Points		  [100, 0; 0, -20; 25, 0; 0, -65]
 	  DstBlock		  "Horizontal Position Controller"
 	  DstPort		  1
 	}
@@ -3865,7 +3849,7 @@ Library {
       Position		      [335, 35, 445, 175]
       ZOrder		      4
       BackgroundColor	      "green"
-      LibraryVersion	      "1.82"
+      LibraryVersion	      "1.83"
       SourceBlock	      "X330_Control/Horizontal Pos controller"
       SourceType	      ""
       Max_RP		      "60"
@@ -3944,7 +3928,7 @@ Library {
 	TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
 	TiledPageScale		1
 	ShowPageBoundaries	off
-	ZoomFactor		"174"
+	ZoomFactor		"95"
 	Block {
 	  BlockType		  Inport
 	  Name			  "UAV bus"
@@ -4336,7 +4320,7 @@ Library {
 	      BlockType		      Inport
 	      Name		      "Reset"
 	      SID		      "453"
-	      Position		      [185, 318, 215, 332]
+	      Position		      [185, 323, 215, 337]
 	      ZOrder		      -2
 	      Port		      "2"
 	      IconDisplay	      "Port number"
@@ -4354,7 +4338,7 @@ Library {
 	      BlockType		      Inport
 	      Name		      "Hover Throttle"
 	      SID		      "455"
-	      Position		      [180, 488, 210, 502]
+	      Position		      [185, 458, 215, 472]
 	      ZOrder		      -4
 	      Port		      "4"
 	      IconDisplay	      "Port number"
@@ -4379,7 +4363,7 @@ Library {
 	      BlockType		      Inport
 	      Name		      "XY_Acc_d"
 	      SID		      "457"
-	      Position		      [180, 578, 210, 592]
+	      Position		      [185, 593, 215, 607]
 	      ZOrder		      -6
 	      Port		      "6"
 	      IconDisplay	      "Port number"
@@ -4388,7 +4372,7 @@ Library {
 	      BlockType		      Inport
 	      Name		      "Height\nRef"
 	      SID		      "458"
-	      Position		      [180, 743, 210, 757]
+	      Position		      [185, 743, 215, 757]
 	      ZOrder		      -7
 	      Port		      "7"
 	      IconDisplay	      "Port number"
@@ -4397,7 +4381,7 @@ Library {
 	      BlockType		      Inport
 	      Name		      "Height"
 	      SID		      "459"
-	      Position		      [180, 818, 210, 832]
+	      Position		      [185, 818, 215, 832]
 	      ZOrder		      -8
 	      Port		      "8"
 	      IconDisplay	      "Port number"
@@ -4406,7 +4390,7 @@ Library {
 	      BlockType		      Inport
 	      Name		      "RC"
 	      SID		      "460"
-	      Position		      [180, 673, 210, 687]
+	      Position		      [185, 673, 215, 687]
 	      ZOrder		      -9
 	      Port		      "9"
 	      IconDisplay	      "Port number"
@@ -4415,7 +4399,7 @@ Library {
 	      BlockType		      Inport
 	      Name		      "Vel"
 	      SID		      "461"
-	      Position		      [175, 968, 205, 982]
+	      Position		      [185, 968, 215, 982]
 	      ZOrder		      -10
 	      Port		      "10"
 	      IconDisplay	      "Port number"
@@ -4445,7 +4429,7 @@ Library {
 	      BlockType		      Fcn
 	      Name		      "Fcn3"
 	      SID		      "465"
-	      Position		      [860, 1013, 975, 1047]
+	      Position		      [820, 958, 935, 992]
 	      ZOrder		      -13
 	      BackgroundColor	      "gray"
 	      ShowName		      off
@@ -4494,7 +4478,7 @@ Library {
 	      Name		      "Level-2 M-file\nS-Function"
 	      SID		      "469"
 	      Ports		      [4, 4]
-	      Position		      [520, 707, 645, 1018]
+	      Position		      [415, 707, 540, 1018]
 	      ZOrder		      -17
 	      BackgroundColor	      "gray"
 	      FunctionName	      "msfcn_Adaptive_NN_HeightOnly"
@@ -4535,7 +4519,7 @@ Library {
 	      Name		      "Mux1"
 	      SID		      "472"
 	      Ports		      [2, 1]
-	      Position		      [905, 820, 910, 880]
+	      Position		      [1160, 705, 1165, 765]
 	      ZOrder		      -20
 	      ShowName		      off
 	      Inputs		      "2"
@@ -4594,7 +4578,7 @@ Library {
 	      Name		      "Sum2"
 	      SID		      "477"
 	      Ports		      [2, 1]
-	      Position		      [675, 445, 705, 485]
+	      Position		      [660, 445, 690, 485]
 	      ZOrder		      -24
 	      ShowName		      off
 	      DisableCoverage	      on
@@ -4610,7 +4594,7 @@ Library {
 	      BlockType		      Fcn
 	      Name		      "Total Acc des"
 	      SID		      "479"
-	      Position		      [405, 574, 500, 606]
+	      Position		      [405, 569, 500, 601]
 	      ZOrder		      -25
 	      Expr		      "sqrt(u(1)^2+u(2)^2)"
 	    }
@@ -4619,7 +4603,7 @@ Library {
 	      Name		      "Transport\nDelay"
 	      SID		      "480"
 	      Ports		      [1, 1]
-	      Position		      [390, 885, 420, 915]
+	      Position		      [355, 885, 385, 915]
 	      ZOrder		      -26
 	      BackgroundColor	      "gray"
 	      DelayTime		      "0.02"
@@ -4636,7 +4620,7 @@ Library {
 	      BlockType		      Outport
 	      Name		      "NN"
 	      SID		      "604"
-	      Position		      [1010, 843, 1040, 857]
+	      Position		      [1205, 728, 1235, 742]
 	      ZOrder		      -28
 	      Port		      "2"
 	      IconDisplay	      "Port number"
@@ -4680,14 +4664,12 @@ Library {
 	    Line {
 	      SrcBlock		      "Level-2 M-file\nS-Function"
 	      SrcPort		      1
-	      Points		      [20, 0]
+	      Points		      [50, 0]
 	      Branch {
-		Points			[0, 115]
 		DstBlock		"Mux1"
 		DstPort			2
 	      }
 	      Branch {
-		Points			[140, 0; 0, -390; -215, 0]
 		DstBlock		"Sum1"
 		DstPort			5
 	      }
@@ -4735,7 +4717,7 @@ Library {
 	    Line {
 	      SrcBlock		      "Reset"
 	      SrcPort		      1
-	      Points		      [0, 5; 185, 0; 0, -25]
+	      Points		      [0, 0; 185, 0; 0, -25]
 	      DstBlock		      "Integrator"
 	      DstPort		      2
 	    }
@@ -4748,47 +4730,42 @@ Library {
 	    Line {
 	      SrcBlock		      "D Gain"
 	      SrcPort		      1
-	      Points		      [79, 0]
+	      Points		      [57, 0; 0, -71]
 	      DstBlock		      "Sum1"
 	      DstPort		      3
 	    }
 	    Line {
 	      SrcBlock		      "Acc des"
 	      SrcPort		      1
-	      Points		      [370, 0; 0, -35; -16, 0]
+	      Points		      [354, 0]
 	      DstBlock		      "Sum1"
 	      DstPort		      4
 	    }
 	    Line {
 	      Name		      "Gravity"
-	      Labels		      [5, 0]
+	      Labels		      [1, 0]
 	      SrcBlock		      "Hover Throttle"
 	      SrcPort		      1
-	      Points		      [30, 0; 0, -5; 390, 0; 0, -25]
 	      DstBlock		      "Sum2"
 	      DstPort		      2
 	    }
 	    Line {
 	      Name		      "Des Acc "
-	      Labels		      [0, 0]
+	      Labels		      [0, 0; 1, 0]
 	      SrcBlock		      "Sum1"
 	      SrcPort		      1
-	      Points		      [0, 0]
+	      Points		      [15, 0; 0, 115]
 	      Branch {
-		Labels			[1, 0]
-		Points			[30, 0; 0, 90]
-		Branch {
-		  DstBlock		  "Sum2"
-		  DstPort		  1
-		}
-		Branch {
-		  Points		  [200, 0]
-		  DstBlock		  "Mux1"
-		  DstPort		  1
-		}
+		Points			[451, 0; 0, 295]
+		DstBlock		"Mux1"
+		DstPort			1
 	      }
 	      Branch {
-		Points			[0, 135; -215, 0; 0, 405; -120, 0; 0, 50]
+		DstBlock		"Sum2"
+		DstPort			1
+	      }
+	      Branch {
+		Points			[-350, 0; 0, 475]
 		DstBlock		"Transport\nDelay"
 		DstPort			1
 	      }
@@ -4809,14 +4786,13 @@ Library {
 	    Line {
 	      SrcBlock		      "XY_Acc_d"
 	      SrcPort		      1
-	      Points		      [15, 0; 0, 10; 120, 0]
 	      DstBlock		      "Mux"
 	      DstPort		      2
 	    }
 	    Line {
 	      SrcBlock		      "Sum2"
 	      SrcPort		      1
-	      Points		      [10, 0]
+	      Points		      [25, 0]
 	      Branch {
 		DstBlock		"Mass"
 		DstPort			1
@@ -5517,7 +5493,7 @@ Library {
 	      BlockType		      Inport
 	      Name		      "Pos Error"
 	      SID		      "406"
-	      Position		      [185, 193, 215, 207]
+	      Position		      [205, 213, 235, 227]
 	      ZOrder		      -1
 	      IconDisplay	      "Port number"
 	    }
@@ -5525,7 +5501,7 @@ Library {
 	      BlockType		      Inport
 	      Name		      "Reset"
 	      SID		      "407"
-	      Position		      [185, 318, 215, 332]
+	      Position		      [205, 338, 235, 352]
 	      ZOrder		      -2
 	      Port		      "2"
 	      IconDisplay	      "Port number"
@@ -5534,7 +5510,7 @@ Library {
 	      BlockType		      Inport
 	      Name		      "Vel Error"
 	      SID		      "408"
-	      Position		      [185, 358, 215, 372]
+	      Position		      [205, 378, 235, 392]
 	      ZOrder		      -3
 	      Port		      "3"
 	      IconDisplay	      "Port number"
@@ -5543,7 +5519,7 @@ Library {
 	      BlockType		      Inport
 	      Name		      "Hover Throttle"
 	      SID		      "409"
-	      Position		      [180, 488, 210, 502]
+	      Position		      [200, 508, 230, 522]
 	      ZOrder		      -4
 	      Port		      "4"
 	      IconDisplay	      "Port number"
@@ -5559,7 +5535,7 @@ Library {
 	      BlockType		      Inport
 	      Name		      "Acc des"
 	      SID		      "410"
-	      Position		      [185, 403, 215, 417]
+	      Position		      [205, 423, 235, 437]
 	      ZOrder		      -5
 	      Port		      "5"
 	      IconDisplay	      "Port number"
@@ -5568,7 +5544,7 @@ Library {
 	      BlockType		      Inport
 	      Name		      "XY_Acc_d"
 	      SID		      "411"
-	      Position		      [180, 578, 210, 592]
+	      Position		      [200, 598, 230, 612]
 	      ZOrder		      -6
 	      Port		      "6"
 	      IconDisplay	      "Port number"
@@ -5577,7 +5553,7 @@ Library {
 	      BlockType		      Inport
 	      Name		      "Height\nRef"
 	      SID		      "412"
-	      Position		      [180, 743, 210, 757]
+	      Position		      [200, 763, 230, 777]
 	      ZOrder		      -7
 	      Port		      "7"
 	      IconDisplay	      "Port number"
@@ -5586,7 +5562,7 @@ Library {
 	      BlockType		      Inport
 	      Name		      "Height"
 	      SID		      "413"
-	      Position		      [180, 818, 210, 832]
+	      Position		      [200, 838, 230, 852]
 	      ZOrder		      -8
 	      Port		      "8"
 	      IconDisplay	      "Port number"
@@ -5595,7 +5571,7 @@ Library {
 	      BlockType		      Inport
 	      Name		      "RC"
 	      SID		      "414"
-	      Position		      [180, 673, 210, 687]
+	      Position		      [200, 693, 230, 707]
 	      ZOrder		      -9
 	      Port		      "9"
 	      IconDisplay	      "Port number"
@@ -5604,7 +5580,7 @@ Library {
 	      BlockType		      Inport
 	      Name		      "Vel"
 	      SID		      "415"
-	      Position		      [175, 968, 205, 982]
+	      Position		      [195, 988, 225, 1002]
 	      ZOrder		      -10
 	      Port		      "10"
 	      IconDisplay	      "Port number"
@@ -5613,7 +5589,7 @@ Library {
 	      BlockType		      Gain
 	      Name		      "D Gain"
 	      SID		      "417"
-	      Position		      [295, 346, 490, 384]
+	      Position		      [315, 366, 510, 404]
 	      ZOrder		      -11
 	      Gain		      "2*Omega_h*Zeta_h"
 	      ParamDataTypeStr	      "Inherit: Inherit via internal rule"
@@ -5624,7 +5600,7 @@ Library {
 	      BlockType		      Fcn
 	      Name		      "Fcn1"
 	      SID		      "418"
-	      Position		      [245, 958, 360, 992]
+	      Position		      [265, 978, 380, 1012]
 	      ZOrder		      -12
 	      BackgroundColor	      "gray"
 	      ShowName		      off
@@ -5634,7 +5610,7 @@ Library {
 	      BlockType		      Fcn
 	      Name		      "Fcn3"
 	      SID		      "419"
-	      Position		      [860, 1013, 975, 1047]
+	      Position		      [880, 1033, 995, 1067]
 	      ZOrder		      -13
 	      BackgroundColor	      "gray"
 	      ShowName		      off
@@ -5644,7 +5620,7 @@ Library {
 	      BlockType		      Fcn
 	      Name		      "Force --> Control"
 	      SID		      "420"
-	      Position		      [820, 450, 925, 480]
+	      Position		      [840, 470, 945, 500]
 	      ZOrder		      -14
 	      Expr		      "u(1)*0.0297 + 0.1485"
 	    }
@@ -5652,7 +5628,7 @@ Library {
 	      BlockType		      Gain
 	      Name		      "Integral Gain"
 	      SID		      "421"
-	      Position		      [270, 251, 370, 299]
+	      Position		      [290, 271, 390, 319]
 	      ZOrder		      -15
 	      DisableCoverage	      on
 	      Gain		      "PID_I_h"
@@ -5665,7 +5641,7 @@ Library {
 	      Name		      "Integrator"
 	      SID		      "422"
 	      Ports		      [2, 1]
-	      Position		      [445, 258, 520, 322]
+	      Position		      [465, 278, 540, 342]
 	      ZOrder		      -16
 	      DisableCoverage	      on
 	      IntegratorMethod	      "Integration: Trapezoidal"
@@ -5683,7 +5659,7 @@ Library {
 	      Name		      "Level-2 M-file\nS-Function"
 	      SID		      "423"
 	      Ports		      [4, 4]
-	      Position		      [520, 707, 645, 1018]
+	      Position		      [540, 727, 665, 1038]
 	      ZOrder		      -17
 	      BackgroundColor	      "gray"
 	      FunctionName	      "msfcn_Adaptive_NN_HeightOnly"
@@ -5700,7 +5676,7 @@ Library {
 	      BlockType		      Gain
 	      Name		      "Mass"
 	      SID		      "424"
-	      Position		      [755, 451, 810, 479]
+	      Position		      [775, 471, 830, 499]
 	      ZOrder		      -18
 	      DisableCoverage	      on
 	      Gain		      "mass"
@@ -5713,7 +5689,7 @@ Library {
 	      Name		      "Mux"
 	      SID		      "425"
 	      Ports		      [2, 1]
-	      Position		      [365, 555, 370, 615]
+	      Position		      [385, 575, 390, 635]
 	      ZOrder		      -19
 	      ShowName		      off
 	      Inputs		      "2"
@@ -5724,7 +5700,7 @@ Library {
 	      Name		      "Mux1"
 	      SID		      "426"
 	      Ports		      [2, 1]
-	      Position		      [905, 820, 910, 880]
+	      Position		      [925, 840, 930, 900]
 	      ZOrder		      -20
 	      ShowName		      off
 	      Inputs		      "2"
@@ -5734,7 +5710,7 @@ Library {
 	      BlockType		      Gain
 	      Name		      "Proportional Gain"
 	      SID		      "427"
-	      Position		      [275, 184, 410, 216]
+	      Position		      [295, 204, 430, 236]
 	      ZOrder		      -21
 	      DisableCoverage	      on
 	      Gain		      "Omega_h^2"
@@ -5747,7 +5723,7 @@ Library {
 	      Name		      "Selector7"
 	      SID		      "429"
 	      Ports		      [1, 1]
-	      Position		      [260, 643, 285, 717]
+	      Position		      [280, 663, 305, 737]
 	      ZOrder		      -22
 	      NamePlacement	      "alternate"
 	      ShowName		      off
@@ -5761,7 +5737,7 @@ Library {
 	      Name		      "Sum1"
 	      SID		      "430"
 	      Ports		      [5, 1]
-	      Position		      [585, 280, 655, 340]
+	      Position		      [605, 300, 675, 360]
 	      ZOrder		      -23
 	      DisableCoverage	      on
 	      IconShape		      "round"
@@ -5783,7 +5759,7 @@ Library {
 	      Name		      "Sum2"
 	      SID		      "431"
 	      Ports		      [2, 1]
-	      Position		      [675, 445, 705, 485]
+	      Position		      [695, 465, 725, 505]
 	      ZOrder		      -24
 	      ShowName		      off
 	      DisableCoverage	      on
@@ -5799,7 +5775,7 @@ Library {
 	      BlockType		      Fcn
 	      Name		      "Total Acc des"
 	      SID		      "433"
-	      Position		      [405, 574, 500, 606]
+	      Position		      [425, 594, 520, 626]
 	      ZOrder		      -25
 	      Expr		      "sqrt(u(1)^2+u(2)^2)"
 	    }
@@ -5808,7 +5784,7 @@ Library {
 	      Name		      "Transport\nDelay"
 	      SID		      "434"
 	      Ports		      [1, 1]
-	      Position		      [390, 885, 420, 915]
+	      Position		      [410, 905, 440, 935]
 	      ZOrder		      -26
 	      BackgroundColor	      "gray"
 	      DelayTime		      "0.02"
@@ -5817,7 +5793,7 @@ Library {
 	      BlockType		      Outport
 	      Name		      "T  Commands [0, 1]"
 	      SID		      "435"
-	      Position		      [985, 458, 1015, 472]
+	      Position		      [1005, 478, 1035, 492]
 	      ZOrder		      -27
 	      IconDisplay	      "Port number"
 	    }
@@ -5825,7 +5801,7 @@ Library {
 	      BlockType		      Outport
 	      Name		      "NN"
 	      SID		      "603"
-	      Position		      [1010, 843, 1040, 857]
+	      Position		      [1030, 863, 1060, 877]
 	      ZOrder		      -28
 	      Port		      "2"
 	      IconDisplay	      "Port number"
@@ -6025,7 +6001,7 @@ Library {
 	    Annotation {
 	      SID		      "962"
 	      Name		      " "
-	      Position		      [935, 362]
+	      Position		      [955, 382]
 	    }
 	  }
 	}
@@ -6326,8 +6302,8 @@ Library {
       }
       System {
 	Name			"PosRefSystem"
-	Location		[51, 0, 1011, 1040]
-	Open			on
+	Location		[-8, -8, 1928, 1048]
+	Open			off
 	ModelBrowserVisibility	off
 	ModelBrowserWidth	200
 	ScreenColor		"[0.800000, 0.909804, 0.811765]"
@@ -7202,7 +7178,7 @@ Library {
       Position		      [270, 752, 390, 828]
       ZOrder		      3
       BackgroundColor	      "orange"
-      LibraryVersion	      "1.82"
+      LibraryVersion	      "1.83"
       SourceBlock	      "X330_Control/PosRefSystem"
       SourceType	      ""
       Omega_r		      "Q6_Omega_r"
@@ -7722,7 +7698,7 @@ Library {
 	    TiledPageScale	    1
 	    ShowPageBoundaries	    off
 	    ZoomFactor		    "100"
-	    SIDHighWatermark	    "26"
+	    SIDHighWatermark	    "31"
 	    Block {
 	      BlockType		      Inport
 	      Name		      "u"
@@ -7855,7 +7831,7 @@ Library {
 	    TiledPageScale	    1
 	    ShowPageBoundaries	    off
 	    ZoomFactor		    "100"
-	    SIDHighWatermark	    "26"
+	    SIDHighWatermark	    "31"
 	    Block {
 	      BlockType		      Inport
 	      Name		      "u"
@@ -8320,8 +8296,11 @@ Stateflow {
     firstTransition	    14
     firstJunction	    13
     viewObj		    9
+    visible		    1
     machine		    1
     toolbarMode		    LIBRARY_TOOLBAR
+    subviewS {
+    }
     ssIdHighWaterMark	    5
     decomposition	    CLUSTER_CHART
     type		    EML_CHART
