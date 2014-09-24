@@ -6,7 +6,7 @@ Model {
     NumRootInports	    0
     NumRootOutports	    0
     ParameterArgumentNames  ""
-    ComputedModelVersion    "1.1063"
+    ComputedModelVersion    "1.1064"
     NumModelReferences	    0
     NumTestPointedSignals   0
   }
@@ -32,7 +32,7 @@ Model {
       $ObjectID		      2
       $ClassName	      "Simulink.WindowInfo"
       IsActive		      [1]
-      Location		      [-8.0, -8.0, 1936.0, 1056.0]
+      Location		      [-2.0, -6.0, 1936.0, 1056.0]
       Object {
 	$PropName		"ModelBrowserInfo"
 	$ObjectID		3
@@ -41,7 +41,7 @@ Model {
 	DockPosition		"Left"
 	Width			[50]
 	Height			[50]
-	Filter			[8]
+	Filter			[9]
       }
       Object {
 	$PropName		"ExplorerBarInfo"
@@ -54,11 +54,11 @@ Model {
 	$ObjectID		5
 	$ClassName		"Simulink.EditorInfo"
 	IsActive		[1]
-	ViewObjType		"SimulinkTopLevel"
-	LoadSaveID		"0"
+	ViewObjType		"StateflowChart"
+	LoadSaveID		"572"
 	Extents			[1884.0, 880.0]
-	ZoomFactor		[2.2036139268400174]
-	Offset			[3.6468, 36.988200000000006]
+	ZoomFactor		[1.5]
+	Offset			[-182.85141666666669, -6.9099999999999966]
       }
     }
   }
@@ -68,9 +68,9 @@ Model {
   ModifiedByFormat	  "%<Auto>"
   LastModifiedBy	  "Birdman"
   ModifiedDateFormat	  "%<Auto>"
-  LastModifiedDate	  "Wed Sep 24 13:26:07 2014"
-  RTWModifiedTimeStamp	  333454717
-  ModelVersionFormat	  "1.%<AutoIncrement:1063>"
+  LastModifiedDate	  "Wed Sep 24 14:46:08 2014"
+  RTWModifiedTimeStamp	  333470513
+  ModelVersionFormat	  "1.%<AutoIncrement:1064>"
   ConfigurationManager	  "None"
   SampleTimeColors	  on
   SampleTimeAnnotations	  off
@@ -1064,7 +1064,7 @@ Model {
   System {
     Name		    "Wanchao_Perching"
     Location		    [-8, -8, 1928, 1048]
-    Open		    on
+    Open		    off
     ModelBrowserVisibility  off
     ModelBrowserWidth	    200
     ScreenColor		    "white"
@@ -1075,7 +1075,7 @@ Model {
     TiledPaperMargins	    [1.270000, 1.270000, 1.270000, 1.270000]
     TiledPageScale	    1
     ShowPageBoundaries	    off
-    ZoomFactor		    "220"
+    ZoomFactor		    "200"
     ReportName		    "simulink-default.rpt"
     SIDHighWatermark	    "1814"
     Block {
@@ -1197,7 +1197,7 @@ Model {
       MaskHideContents	      off
       System {
 	Name			"Planning"
-	Location		[-8, -8, 1928, 1048]
+	Location		[-2, -6, 1934, 1050]
 	Open			off
 	ModelBrowserVisibility	off
 	ModelBrowserWidth	200
@@ -2762,7 +2762,7 @@ Model {
 	  BlockType		  RateTransition
 	  Name			  "Rate Transition"
 	  SID			  "56"
-	  Position		  [565, 175, 595, 205]
+	  Position		  [445, 175, 475, 205]
 	  ZOrder		  -15
 	  OutPortSampleTime	  "sample_time"
 	  Port {
@@ -2856,7 +2856,7 @@ Model {
 	  }
 	  System {
 	    Name		    "Trajectory Logic"
-	    Location		    [-8, -8, 1928, 1048]
+	    Location		    [-2, -6, 1934, 1050]
 	    Open		    off
 	    ModelBrowserVisibility  off
 	    ModelBrowserWidth	    200
@@ -3349,8 +3349,8 @@ Model {
 	      }
 	      System {
 		Name			"UAV SF"
-		Location		[-8, -8, 1928, 1048]
-		Open			off
+		Location		[-2, -6, 1934, 1050]
+		Open			on
 		ModelBrowserVisibility	off
 		ModelBrowserWidth	200
 		ScreenColor		"white"
@@ -3655,7 +3655,6 @@ Model {
 	    Line {
 	      SrcBlock		      "UAV SF"
 	      SrcPort		      2
-	      Points		      [165, 0]
 	      DstBlock		      "HoverThrottle"
 	      DstPort		      1
 	    }
@@ -3698,7 +3697,6 @@ Model {
 	      Labels		      [0, 0]
 	      SrcBlock		      "Bus\nSelector"
 	      SrcPort		      3
-	      Points		      [0, 0]
 	      DstBlock		      "Selector1"
 	      DstPort		      1
 	    }
@@ -6116,7 +6114,6 @@ Model {
 	  Branch {
 	    Points		    [0, 25]
 	    Branch {
-	      Points		      [30, 0]
 	      DstBlock		      "Yaw Controller"
 	      DstPort		      1
 	    }
@@ -6158,7 +6155,7 @@ Model {
 	  Labels		  [0, 0]
 	  SrcBlock		  "Bus\nSelector"
 	  SrcPort		  4
-	  Points		  [341, 0; 0, 105]
+	  Points		  [334, 0; 0, 105]
 	  DstBlock		  "Bus\nCreator"
 	  DstPort		  8
 	}
@@ -6358,7 +6355,6 @@ Model {
 	    DstPort		    3
 	  }
 	  Branch {
-	    Points		    [40, 0]
 	    DstBlock		    "Perch Error"
 	    DstPort		    1
 	  }
@@ -10687,8 +10683,8 @@ Stateflow {
     id			    9
     name		    "Planning/Trajectory Logic/UAV SF"
     windowPosition	    [18.75 -342.25 1866 1096]
-    viewLimits		    [-175.724 1066.829 -4.24 576.146]
-    zoomFactor		    0.879
+    viewLimits		    [-182.851 1073.149 -6.91 579.757]
+    zoomFactor		    0.889
     chartColor		    [1 1 1]
     screen		    [1 1 1920 1080 1.333333333333333]
     treeNode		    [0 14 0 0]
